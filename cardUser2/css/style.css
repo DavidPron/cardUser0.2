@@ -1,0 +1,47 @@
+/* Основні стилі */
+#data-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .user-card {
+    
+    /* display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 1px;
+    grid-row-gap: 1px; */
+    border: 1px solid #a2a41b;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fcfc7a;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transform: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .user-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4 10 rgba(0, 0, 0, 0.2);
+  }
+  
+  .user-card h2 {
+    /* grid-area: 1 / 1 / 2 / 2; */
+    color: #333;
+    margin: 0 0 5px; 
+  }
+  
+  .user-card p {
+    /* grid-area: 1 / 1 / 2 / 2; */
+    margin: 5px 0;
+    color: #190c0c; 
+  }
+  
